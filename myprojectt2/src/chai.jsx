@@ -1,5 +1,5 @@
 import React from "react"
-function chai(){
+function Chai(){
     return(
         <h2>Chai is ready</h2>
     )
