@@ -18,17 +18,18 @@ function MyApp(){
 //     children: 'Click me to visit google'
 // }
 
+const anotherUser="chai aur react"
+
 const reactElement=React.createElement(
     'a',
     {href:'https://googole.com' ,target: '_blank'},
-    'click me too visit google'
+    'click me too visit google',
+    anotherUser
 )
 
 const anotherElement=(
     <a href="https.//google.com" target='_blank' > visit google</a>
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
-reactElement
-   
-  
+reactElement  
 )
